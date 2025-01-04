@@ -1,5 +1,5 @@
-## Study Notes
-# Polymorphism
+# Study Notes
+### Polymorphism
 - Polymorphism means many forms, it allows one interface to have multiple implementations
  // Base class
 public virtual class Payment {
