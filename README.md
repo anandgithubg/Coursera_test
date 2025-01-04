@@ -1,14 +1,14 @@
-# Study Notes
-##Polymorphism
+## Study Notes
+# Polymorphism
 - Polymorphism means many forms, it allows one interface to have multiple implementations
-- // Base class
+ // Base class
 public virtual class Payment {
     public virtual String processPayment() {
         return 'Processing generic payment';
     }
 }
 
-// Derived classes
+
 public class CreditCardPayment extends Payment {
     public override String processPayment() {
         return 'Processing credit card payment';
